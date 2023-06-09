@@ -1,0 +1,31 @@
+Script started on Mon 13 Feb 2023 11:42:44 PM EST
+]0;darrenstatondsilva@loki:~/3380/lab2[?1034h[darrenstatondsilva@loki lab2]$ ls
+baguette.txt    diploreverse            lab2.c       typescript
+Bonjour.txt     [0m[38;5;9mdsilva_darren_lab2.zip[0m  [38;5;34mpoke1.jpg[0m    [38;5;27muntitled folder[0m
+[38;5;34mdiplodocus.pdf[0m  [38;5;34mlab2[0m                    pokereverse
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ ./lab2 baguette.txt Bonjour.txt
+Contents copied from baguette.txt to Bonjour.txt
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ cat baguette.txt
+
+udenihC~ ytilibisnopser taerg semoc rewop taerg htiW]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ cat Bonjour.txt
+With great power comes great responsibility ~Chinedu
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ md5sum baguette.txt Bonjour.txt file3
+eb6af3564496d857682f2eb725e7ec4b  baguette.txt
+f8bcba471bc555220311d095b90b5d6d  Bonjour.txt
+eb6af3564496d857682f2eb725e7ec4b  file3
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ ./lab2 diplodocus.pdf diploreverse
+Contents copied from diplodocus.pdf to diploreverse
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ md5sum diplodocus.pdf diploreverse file3
+856c76c86d03ac062786d660c326719b  diplodocus.pdf
+3e758eba5aa2b6dd124ecf7a062b969a  diploreverse
+856c76c86d03ac062786d660c326719b  file3
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ ./lab2 poke1.jpg pokereverse
+Contents copied from poke1.jpg to pokereverse
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ md5sum file3 poke1.jpg pokereverse
+b16971fcf6442e27303d64fbc3a3ddd8  file3
+b16971fcf6442e27303d64fbc3a3ddd8  poke1.jpg
+5df48f01cdaa275bb88e298327ee430b  pokereverse
+]0;darrenstatondsilva@loki:~/3380/lab2[darrenstatondsilva@loki lab2]$ exit
+exit
+
+Script done on Mon 13 Feb 2023 11:44:42 PM EST

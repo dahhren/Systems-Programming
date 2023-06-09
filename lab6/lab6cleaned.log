@@ -1,0 +1,23 @@
+Script started on Thu 06 Apr 2023 11:27:46 PM EDT
+[darrenstatondsilva@loki lab6]$ ./receive.o 
+^C
+[darrenstatondsilva@loki lab6]$ ./receive.o &
+[1] 30380
+[darrenstatondsilva@loki lab6]$ ./send.o test.txt 
+[darrenstatondsilva@loki lab6]$ ls
+copy.txt  lab6.log  lab6receive.c  lab6send.c  receive.o  send.o  serverfifo  test.txt
+[darrenstatondsilva@loki lab6]$ cat copy.txt 
+hello
+[darrenstatondsilva@loki lab6]$ ../lab1/zip_assignment.sh .
+	zip warning: ignoring FIFO (Named Pipe) - use -FI to read: serverfifo
+  adding: receive.o (deflated 66%)
+  adding: send.o (deflated 66%)
+  adding: lab6.log (stored 0%)
+  adding: test.txt (stored 0%)
+  adding: lab6receive.c (deflated 61%)
+  adding: lab6send.c (deflated 61%)
+  adding: copy.txt (stored 0%)
+[darrenstatondsilva@loki lab6]$ exit
+exit
+
+Script done on Thu 06 Apr 2023 11:29:39 PM EDT

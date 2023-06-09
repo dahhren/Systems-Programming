@@ -1,0 +1,96 @@
+Script started on Sun 05 Mar 2023 10:45:40 PM EST
+]0;darrenstatondsilva@loki:~/3380/lab3[?1034h[darrenstatondsilva@loki lab3]$ ./myls.out /home/COIS/3380/lab3
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838607  -rwxr-xr-x     1                jacques               cois3380    20675     Sun Apr 17 17:09:30 2022 arasaurolopus_baby.pdf
+1838625  -rwxr-xr-x     1                jacques               cois3380     3093     Wed Feb  1 07:07:25 2017 string_testing.c
+1838619  -rwxr-xr-x     1                jacques               cois3380 16436089     Sun Jul 30 11:44:47 2017 lab3_dir.tar.gz
+1838315  -rwxr-xr-x     1                jacques               cois3380     6915     Tue Jan 26 10:53:18 2016 3_range_random.c
+1837797  drwxr-xr-x     7                   root                   root     4096     Wed Jan  4 14:37:30 2023          ..
+1838313  -rwxr-xr-x     1                jacques               cois3380     1832     Tue Jan 26 09:58:24 2016 1_test_random.c
+1838616  drwxr-xr-x     2                jacques               cois3380     4096     Thu Apr  7 08:46:13 2022     gnuplot
+1838314  -rwxr-xr-x     1                jacques               cois3380     2879     Tue Jan 26 09:58:24 2016 2_seed_random.c
+1838620  -rwxr-xr-x     1                jacques               cois3380   408606     Sun Apr 17 17:09:20 2022   poke1.jpg
+1838622  -rwxr-xr-x     1                jacques               cois3380    22434     Thu Jan 21 10:43:52 2016 Shell_file_processing.pdf
+1837808  drwxr-xr-x     3                jacques               cois3380     4096     Tue Jan 12 10:31:34 2021           .
+1838618  -rwxr-xr-x     1                jacques               cois3380      616     Tue Jul 25 11:23:57 2017 lab2_textfile.txt
+1838626  -rwxr-xr-x     1                jacques               cois3380   213904     Fri Dec  9 10:17:00 2016 visual_Studio_Community.exe
+1838614  -rwxr-xr-x     1                jacques               cois3380      559     Fri Jan 20 12:38:49 2017 cities_short.csv
+1838613  -rwxr-xr-x     1                jacques               cois3380  6477803     Fri Jan 20 12:38:49 2017 cities_all.csv
+1838624  -rwxr-xr-x     1                jacques               cois3380    36019     Mon Feb 21 18:21:40 2000 stegosau.pdf
+1838612  -rwxr-xr-x     1                jacques               cois3380    40102     Sun Dec  6 16:21:52 1987 CALCOMP.ARC
+1838621  -rwxr-xr-x     1                jacques               cois3380  1273576     Sun Apr 17 17:10:59 2022   putty.exe
+1838627  -rwxr-xr-x     1                jacques               cois3380  9043232     Sat Feb  4 15:12:29 2017 WinSCP-5.9.3-Setup.exe
+1838615  -rwxr-xr-x     1                jacques               cois3380    87489     Mon Feb 21 18:24:00 2000 diplodocus.pdf
+1838623  -rwxr-xr-x     1                jacques               cois3380     1921     Mon Sep 26 11:47:21 2022 small_world.txt
+1838617  -rwxr-xr-x     1                jacques               cois3380    46903     Sun Apr 17 17:09:10 2022   jewel.jpg
+1838611  -rwxr-xr-x     1                jacques               cois3380     1179     Tue Jan  1 00:01:28 1980    C128.XTK
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out /home/COIS/3380/lab3-/home/COIS/3380/lab3s/home/COIS/3380/lab3 /home/COIS/3380/lab35/home/COIS/3380/lab30/home/COIS/3380/lab30/home/COIS/3380/lab30/home/COIS/3380/lab3 /home/COIS/3380/lab3
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838625  -rwxr-xr-x     1                jacques               cois3380     3093     Wed Feb  1 07:07:25 2017 string_testing.c
+1837797  drwxr-xr-x     7                   root                   root     4096     Wed Jan  4 14:37:30 2023          ..
+1838313  -rwxr-xr-x     1                jacques               cois3380     1832     Tue Jan 26 09:58:24 2016 1_test_random.c
+1838616  drwxr-xr-x     2                jacques               cois3380     4096     Thu Apr  7 08:46:13 2022     gnuplot
+1838314  -rwxr-xr-x     1                jacques               cois3380     2879     Tue Jan 26 09:58:24 2016 2_seed_random.c
+1837808  drwxr-xr-x     3                jacques               cois3380     4096     Tue Jan 12 10:31:34 2021           .
+1838618  -rwxr-xr-x     1                jacques               cois3380      616     Tue Jul 25 11:23:57 2017 lab2_textfile.txt
+1838614  -rwxr-xr-x     1                jacques               cois3380      559     Fri Jan 20 12:38:49 2017 cities_short.csv
+1838623  -rwxr-xr-x     1                jacques               cois3380     1921     Mon Sep 26 11:47:21 2022 small_world.txt
+1838611  -rwxr-xr-x     1                jacques               cois3380     1179     Tue Jan  1 00:01:28 1980    C128.XTK
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -s 5000 /home/COIS/3380/lab30 /home/COIS/3380/lab3[1P[1@l
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838619  -rwxr-xr-x     1                jacques               cois3380 16436089     Sun Jul 30 11:44:47 2017 lab3_dir.tar.gz
+1838620  -rwxr-xr-x     1                jacques               cois3380   408606     Sun Apr 17 17:09:20 2022   poke1.jpg
+1838626  -rwxr-xr-x     1                jacques               cois3380   213904     Fri Dec  9 10:17:00 2016 visual_Studio_Community.exe
+1838613  -rwxr-xr-x     1                jacques               cois3380  6477803     Fri Jan 20 12:38:49 2017 cities_all.csv
+1838621  -rwxr-xr-x     1                jacques               cois3380  1273576     Sun Apr 17 17:10:59 2022   putty.exe
+1838627  -rwxr-xr-x     1                jacques               cois3380  9043232     Sat Feb  4 15:12:29 2017 WinSCP-5.9.3-Setup.exe
+1838615  -rwxr-xr-x     1                jacques               cois3380    87489     Mon Feb 21 18:24:00 2000 diplodocus.pdf
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -l 50000 /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P/home/COIS/3380/lab3[1P /home/COIS/3380/lab3y /home/COIS/3380/lab3[C /home/COIS/3380/lab31 /home/COIS/3380/lab39 /home/COIS/3380/lab30 /home/COIS/3380/lab3
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1837797  drwxr-xr-x     7                   root                   root     4096     Wed Jan  4 14:37:30 2023          ..
+1838623  -rwxr-xr-x     1                jacques               cois3380     1921     Mon Sep 26 11:47:21 2022 small_world.txt
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -y 190 /home/COIS/3380/lab3[C[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P/home/COIS/3380/lab3[1P /home/COIS/3380/lab30 /home/COIS/3380/lab3[C /home/COIS/3380/lab33 /home/COIS/3380/lab36 /home/COIS/3380/lab35 /home/COIS/3380/lab30 /home/COIS/3380/lab3
+./myls.out: invalid option -- '0'
+Cannot open dir
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -0 3650 /home/COIS/3380/lab3[1P[1@o
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838624  -rwxr-xr-x     1                jacques               cois3380    36019     Mon Feb 21 18:21:40 2000 stegosau.pdf
+1838612  -rwxr-xr-x     1                jacques               cois3380    40102     Sun Dec  6 16:21:52 1987 CALCOMP.ARC
+1838615  -rwxr-xr-x     1                jacques               cois3380    87489     Mon Feb 21 18:24:00 2000 diplodocus.pdf
+1838611  -rwxr-xr-x     1                jacques               cois3380     1179     Tue Jan  1 00:01:28 1980    C128.XTK
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -o 3650 /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab32 /home/COIS/3380/lab35 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab3[C /home/COIS/3380/lab3- /home/COIS/3380/lab3y /home/COIS/3380/lab3[C /home/COIS/3380/lab39 /home/COIS/3380/lab38 /home/COIS/3380/lab36 /home/COIS/3380/lab32 /home/COIS/3380/lab3
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838315  -rwxr-xr-x     1                jacques               cois3380     6915     Tue Jan 26 10:53:18 2016 3_range_random.c
+1838313  -rwxr-xr-x     1                jacques               cois3380     1832     Tue Jan 26 09:58:24 2016 1_test_random.c
+1838314  -rwxr-xr-x     1                jacques               cois3380     2879     Tue Jan 26 09:58:24 2016 2_seed_random.c
+1838622  -rwxr-xr-x     1                jacques               cois3380    22434     Thu Jan 21 10:43:52 2016 Shell_file_processing.pdf
+1838624  -rwxr-xr-x     1                jacques               cois3380    36019     Mon Feb 21 18:21:40 2000 stegosau.pdf
+1838615  -rwxr-xr-x     1                jacques               cois3380    87489     Mon Feb 21 18:24:00 2000 diplodocus.pdf
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -o 2500 -y 9862 /home/COIS/3380/lab3[1P[1P[1P[1P[1@3[1@6[1@0[1P[1@5[1@0[C[C[C[C[C[C[C[C[C /home/COIS/3380/lab3- /home/COIS/3380/lab3l /home/COIS/3380/lab3[C /home/COIS/3380/lab34 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab3[C /home/COIS/3380/lab3- /home/COIS/3380/lab3s /home/COIS/3380/lab3[C /home/COIS/3380/lab31 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab30 /home/COIS/3380/lab3
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+1838615  -rwxr-xr-x     1                jacques               cois3380    87489     Mon Feb 21 18:24:00 2000 diplodocus.pdf
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./ [Kmyls.out
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+ 263241  drwxrwxr-x     7     darrenstatondsilva     darrenstatondsilva     4096     Sun Mar  5 13:49:04 2023          ..
+ 267970  drwxrwxr-x     2     darrenstatondsilva     darrenstatondsilva     4096     Sun Mar  5 22:45:40 2023           .
+ 267982  -rw-rw-r--     1     darrenstatondsilva     darrenstatondsilva     6440     Sun Mar  5 22:43:10 2023      myls.c
+ 263455  -rwxrwxr-x     1     darrenstatondsilva     darrenstatondsilva    13464     Sun Mar  5 21:56:10 2023    myls.out
+ 268011  -rw-rw-r--     1     darrenstatondsilva     darrenstatondsilva     8192     Sun Mar  5 22:48:07 2023  lab3script
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out -l 10000
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+ 263455  -rwxrwxr-x     1     darrenstatondsilva     darrenstatondsilva    13464     Sun Mar  5 21:56:10 2023    myls.out
+ 268011  -rw-rw-r--     1     darrenstatondsilva     darrenstatondsilva    12288     Sun Mar  5 22:50:33 2023  lab3script
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out ~3320
+Cannot open dir
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ ./myls.out ~3320/3320
+ inode     Perms      Links          UID                    GID             Size            Modified             FileName
+ 263453  -rw-rw-r--     1     darrenstatondsilva     darrenstatondsilva     6148     Thu Mar  2 23:49:42 2023   .DS_Store
+ 263452  drwxrwxr-x     2     darrenstatondsilva     darrenstatondsilva     4096     Mon Jan 23 20:21:11 2023     .vscode
+1444639  drwxr-x---    15     darrenstatondsilva     darrenstatondsilva     4096     Fri Mar  3 11:52:11 2023          ..
+ 262507  drwxrwxr-x     5     darrenstatondsilva     darrenstatondsilva     4096     Thu Mar  2 23:51:21 2023           .
+ 267824  drwxrwxr-x     2     darrenstatondsilva     darrenstatondsilva     4096     Thu Mar  2 23:50:32 2023        Lab1
+ 262583  drwxrwxr-x     4     darrenstatondsilva     darrenstatondsilva     4096     Thu Mar  2 23:50:33 2023        LAB2
+]0;darrenstatondsilva@loki:~/3380/lab3[darrenstatondsilva@loki lab3]$ exit
+exit
+
+Script done on Sun 05 Mar 2023 10:57:41 PM EST

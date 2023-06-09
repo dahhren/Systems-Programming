@@ -1,0 +1,16 @@
+Script started on Thu 26 Jan 2023 08:50:16 PM EST
+]0;darrenstatondsilva@loki:~/3380[?1034h[darrenstatondsilva@loki 3380]$ ./zip_assignment.sh 
+missing argument on the command line
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ ./zip_assignment.sh $1[K[Ktest
+  adding: test/ (stored 0%)
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ ls[K[Kunzip -l t[K~te[K[K[Ktest/[K=[K=[K[K[K[K[Kdar[K[K[K~/darrenstatondsilva.zip 
+Archive:  /home/darrenstatondsilva/darrenstatondsilva.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  01-26-2023 18:17   test/
+---------                     -------
+        0                     1 file
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ exit
+exit
+
+Script done on Thu 26 Jan 2023 08:51:22 PM EST

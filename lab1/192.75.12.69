@@ -1,0 +1,12 @@
+{
+  "ip": "192.75.12.69",
+  "hostname": "boneshaker.trentu.ca",
+  "city": "Kitchener",
+  "region": "Ontario",
+  "country": "CA",
+  "loc": "43.4254,-80.5112",
+  "org": "AS32638 Trent University",
+  "postal": "N2E",
+  "timezone": "America/Toronto",
+  "readme": "https://ipinfo.io/missingauth"
+}

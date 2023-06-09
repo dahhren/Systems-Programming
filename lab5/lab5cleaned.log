@@ -1,0 +1,37 @@
+Script started on Sat 25 Mar 2023 04:57:34 PM EDT
+[darrenstatondsilva@loki lab5]$ ./lab5.o
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  1
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  2
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  3
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  4
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  5
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  6
+Waiting for Signal
+^C
+Times Received ^C SIGINT:  7
+
+Received ^C SIGINT 7 times. Deactivating SIGINT handler & terminating program!
+[darrenstatondsilva@loki lab5]$ ./lab5.o
+Waiting for Signal
+^\Waiting for Signal
+I am the child and I am sending a signal
+I am the parent and I received a signal
+[darrenstatondsilva@loki lab5]$ ../lab1/zip_assignment.sh .
+adding: lab5.o (deflated 66%)
+adding: lab5.c (deflated 63%)
+[darrenstatondsilva@loki lab5]$ exit
+exit
+
+Script done on Sat 25 Mar 2023 04:57:58 PM EDT

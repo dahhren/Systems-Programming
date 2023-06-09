@@ -1,0 +1,76 @@
+Script started on Thu 09 Mar 2023 11:17:02 PM EST
+[darrenstatondsilva@loki lab4]$ gcc -o shell.o ShellGame.c && ./shell.ops -o user:32,pid,stime,tty,cmd -u darrenstatonndsilva --forestgcc -o shell.o ShellGame.c && ./shell.o
+
+Choose a Process 
+To Display commands, type 'help'
+shell>help
+
+Help Menu
+online - Displays the users online on Loki 
+info - List Files in the Current Directory 
+now - Displays Date and Time of the System 
+jobtree - Displays the Job Tree of the User 
+logout - Self Explanatory :) 
+Child Complete
+Choose a Process 
+To Display commands, type 'help'
+shell>online
+ 23:17:16 up 40 days, 16:38, 25 users,  load average: 0.05, 0.16, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kriskevi pts/0    d24-235-158-120. 23:10   12.00s  0.14s  0.00s ./lab4exec.o
+darrenst pts/1                     23:17    4.00s  0.11s  0.07s w
+marctoum pts/2    bras-base-toroon 19:23    1:30m  0.43s  0.43s -bash
+adamcamp pts/3    bras-base-ptboon 22:10   21:48   0.46s  0.46s -bash
+jacques  pts/7    dyn-192-249-203- 09:56    2:02m  0.41s  0.39s sshd: jacques
+darrenst pts/8    172.25.67.171    22:12    4.00s  0.22s  0.83s sshd: darrens
+robertca pts/9    bras-base-ptboon 20:04   20.00s  0.39s  0.39s -bash
+vprabhak pts/12   172.25.105.158   20:06    3:00   0.49s  0.49s -bash
+nicholas pts/14   142.198.142.5    22:49    6:20   0.17s  0.17s -bash
+davianto pts/15   104.160.224.205  20:19    4.00s  7.20s  6.28s nano lab4.c
+jacques  pts/16   dyn-192-249-203- Wed16    2:09m  0.64s  0.42s sshd: jacques
+tobiafol pts/17   172.25.96.246    17:23    1:41m  0.27s  0.27s -bash
+kriskevi pts/18   d24-235-158-120. 22:49   20:28   0.20s  0.17s /bin/bash
+rileyeat pts/19   bras-base-ptboon 19:46    4:04   1.10s  0.40s sshd: rileyea
+kaushikn pts/20   bras-vprn-ptboon 22:44    4.00s  0.36s  0.72s sshd: kaushik
+krishanp pts/22   99.254.188.134   22:15    4:44   0.18s  0.39s sshd: krishan
+frederic pts/23   bras-base-ptboon 17:36    4.00s  1.50s  0.52s sshd: frederi
+jolenele pts/25   142.189.246.21   21:02    1:26m  0.22s  0.22s -bash
+jhanvish pts/26   172.25.111.101   21:00   36:52   0.30s  0.30s -bash
+alexande pts/29   bras-base-ptboon 22:28   44.00s  0.07s  0.71s sshd: alexand
+ericchen pts/30   bras-base-ptboon 22:48    4.00s  0.17s  0.17s -bash
+hamedria pts/31   172.25.100.168   21:02   59:00   0.29s  0.29s -bash
+alexboud pts/34   d24-235-136-66.h 22:36   17:40   0.14s  0.14s -bash
+alexboud pts/40   d24-235-136-66.h 19:16    1:24   0.51s  0.45s sshd: alexbou
+Child Complete
+Choose a Process 
+To Display commands, type 'help'
+shell>info
+lab4.script  ShellGame.c  shellgame.c  shell.o
+Child Complete
+Choose a Process 
+To Display commands, type 'help'
+shell>now
+Thu Mar  9 23:17:32 EST 2023
+Child Complete
+Choose a Process 
+To Display commands, type 'help'
+shell>jobtree
+USER                               PID STIME TT       CMD
+darrenstatondsilva               27755 19:50 ?        sshd: darrenstatondsilva
+darrenstatondsilva               27757 19:50 ?         \_ /usr/libexec/openssh
+darrenstatondsilva               23791 22:12 ?        sshd: darrenstatondsilva
+darrenstatondsilva               23792 22:12 pts/8     \_ -bash
+darrenstatondsilva                5082 23:17 pts/8         \_ script lab4.scri
+darrenstatondsilva                5084 23:17 pts/8             \_ script lab4.
+darrenstatondsilva                5085 23:17 pts/1                 \_ bash -i
+darrenstatondsilva                5142 23:17 pts/1                     \_ ./sh
+darrenstatondsilva                5194 23:17 pts/1                         \_ 
+Child Complete
+Choose a Process 
+To Display commands, type 'help'
+shell>logout
+Logging Out
+[darrenstatondsilva@loki lab4]$ exit
+exit
+
+Script done on Thu 09 Mar 2023 11:17:53 PM EST

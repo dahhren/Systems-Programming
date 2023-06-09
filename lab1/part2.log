@@ -1,0 +1,80 @@
+Script started on Thu 26 Jan 2023 09:03:09 PM EST
+]0;darrenstatondsilva@loki:~/3380[?1034h[darrenstatondsilva@loki 3380]$ ./q[K[K[K./q2p1.sh 
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ ls
+[0m[38;5;27mlab1[0m  part1.log  part2.log  [38;5;34mq2p1.sh[0m  [38;5;27mtest[0m  top_10_IPs.txt  top_ten_404_pages.txt  [38;5;34mzip_assignment.sh[0m
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ wget [K[K[K[K[Kac[K[Kcat top_10_IPs.txt 
+   5206 192.75.12.69
+   5001 129.211.4.119
+   3738 101.51.106.223
+   2892 62.165.50.254
+   2844 103.106.246.18
+   2838 62.83.85.12
+   2784 129.28.149.86
+   2730 45.88.12.25
+   2730 103.235.231.92
+   2727 193.134.208.11
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ wget http://ipinfo.io/192.75.12.69
+--2023-01-26 21:05:17--  http://ipinfo.io/192.75.12.69
+Resolving ipinfo.io (ipinfo.io)... 34.117.59.81
+Connecting to ipinfo.io (ipinfo.io)|34.117.59.81|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 292 [application/json]
+Saving to: ‘192.75.12.69’
+
+
+ 0% [                                                                                                                                                                                                     ] 0           --.-K/s              
+100%[====================================================================================================================================================================================================>] 292         --.-K/s   in 0s      
+
+2023-01-26 21:05:17 (15.3 MB/s) - ‘192.75.12.69’ saved [292/292]
+
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ cat 192.75.12.69 
+{
+  "ip": "192.75.12.69",
+  "hostname": "boneshaker.trentu.ca",
+  "city": "Kitchener",
+  "region": "Ontario",
+  "country": "CA",
+  "loc": "43.4254,-80.5112",
+  "org": "AS32638 Trent University",
+  "postal": "N2E",
+  "timezone": "America/Toronto",
+  "readme": "https://ipinfo.io/missingauth"
+darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ wget http://ipinfo.io/129.211.4.119
+--2023-01-26 21:06:29--  http://ipinfo.io/129.211.4.119
+Resolving ipinfo.io (ipinfo.io)... 34.117.59.81
+Connecting to ipinfo.io (ipinfo.io)|34.117.59.81|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 267 [application/json]
+Saving to: ‘129.211.4.119’
+
+
+ 0% [                                                                                                                                                                                                     ] 0           --.-K/s              
+100%[====================================================================================================================================================================================================>] 267         --.-K/s   in 0s      
+
+2023-01-26 21:06:29 (8.90 MB/s) - ‘129.211.4.119’ saved [267/267]
+
+darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ cat 129.211.4.119 
+{
+  "ip": "129.211.4.119",
+  "city": "Shanghai",
+  "region": "Shanghai",
+  "country": "CN",
+  "loc": "31.2222,121.4581",
+  "org": "AS45090 Shenzhen Tencent Computer Systems Company Limited",
+  "timezone": "Asia/Shanghai",
+  "readme": "https://ipinfo.io/missingauth"
+}darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ cat top_ten_404_pages.txt 
+   6805 "GET /robots.txt
+   4402 "POST /1.php
+   4286 "POST /qq.php
+   3638 "POST /test.php
+   2809 "POST /confg.php
+   2352 "POST /x.php
+   2351 "HEAD /robots.txt
+   2230 "POST /q.php
+   1839 "POST /xx.php
+   1831 "POST /api.php
+]0;darrenstatondsilva@loki:~/3380[darrenstatondsilva@loki 3380]$ exit
+exit
+
+Script done on Thu 26 Jan 2023 09:06:49 PM EST
